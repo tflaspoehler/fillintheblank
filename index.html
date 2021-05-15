@@ -9,30 +9,214 @@
     <meta name="author" content="tflaspoehler">
 
     <link href="./filler.css" type="text/css" rel="stylesheet" />
+
 </head>
 <body>
+
     <section class="hero is-small">
         <div class="hero-body has-text-centered">
-            <h1 class="title">fill in the blank</h1>
-            <p>
-                A pure CSS library to animate a list of text into a blank line. <br/>I used <a href="https://bulma.io/" target="_blank"><strong>bulma</Strong></a> for quick styling.
-            </p>
-        </div>
-    </section>
-    <section class="hero is-medium is-info">
-        <div class="hero-body has-text-centered">
-            <h1 class="title">
-                this sentence starts with <div class="blank-line-list list-speed-3 num-words-4 title">
-                    <div>words</div>
-                    <div>letters</div>
-                    <div>thoughts</div>
-                    <div>something</div>
-                </div>.
+            <h1 class="title">fill in the
+                <div class="blank-line-list num-words-2 list-speed-5 underline-dark" style="width: 4em;">
+                    <div>blank</div>
+                    <div>blank</div>
+                </div>
             </h1>
             <p>
-                I used <a href="https://bulma.io/" target="_blank"><strong>bulma</Strong></a> for quick styling.
+                A CSS library to animate a list of text into a blank line.
             </p>
         </div>
     </section>
+
+    <section class="hero is-small is-info">
+        <div class="hero-body has-text-centered">
+            <div class="columns is-vcentered">
+                <div class="column is-half">
+                    <h1 class="title">
+                        this sentence starts with <div class="blank-line-list num-words-5 list-speed-3">
+                            <div>words</div>
+                            <div>letters</div>
+                            <div>thoughts</div>
+                            <div>'this'</div>
+                            <div>something</div>
+                        </div>.
+                    </h1>
+                </div>
+                <div class="column is-half has-text-left">
+                    <pre><code class="language-xml hljs">this sentence starts with
+    &lt;div class=&quot;blank-line-list list-speed-3 num-words-5&quot;&gt;
+        &lt;div&gt;words&lt;/div&gt;
+        &lt;div&gt;letters&lt;/div&gt;
+        &lt;div&gt;thoughts&lt;/div&gt;
+        &lt;div&gt;'this'&lt;/div&gt;
+        &lt;div&gt;something&lt;/div&gt;
+    &lt;/div&gt;.</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-primary is-small">
+        <div class="hero-body has-text-centered">
+            <h1 class="title">speed class</h1>
+            <p>Classes are incremented by 0.5s / word starting at 0.5s (list-speed-1) and going to 5s (list-speed-10) </p>
+            <p>&nbsp;</p>
+
+            <div class="columns is-multiline">
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-1 num-words-2" style="width: 10em;">
+                        <div>list-speed-1</div>
+                        <div>list-speed-1</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-2 num-words-2" style="width: 10em;">
+                        <div>list-speed-2</div>
+                        <div>list-speed-2</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-3 num-words-2" style="width: 10em;">
+                        <div>list-speed-3</div>
+                        <div>list-speed-3</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-4 num-words-2" style="width: 10em;">
+                        <div>list-speed-4</div>
+                        <div>list-speed-4</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-5 num-words-2" style="width: 10em;">
+                        <div>list-speed-5</div>
+                        <div>list-speed-5</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-6 num-words-2" style="width: 10em;">
+                        <div>list-speed-6</div>
+                        <div>list-speed-6</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-7 num-words-2" style="width: 10em;">
+                        <div>list-speed-7</div>
+                        <div>list-speed-7</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-8 num-words-2" style="width: 10em;">
+                        <div>list-speed-8</div>
+                        <div>list-speed-8</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-9 num-words-2" style="width: 10em;">
+                        <div>list-speed-9</div>
+                        <div>list-speed-9</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-10 num-words-2" style="width: 10em;">
+                        <div>list-speed-10</div>
+                        <div>list-speed-10</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-small is-dark">
+        <div class="hero-body has-text-centered">
+            <h1 class="title">animation classes</h1>
+            <p>
+                slide-{direction in}-{direction out}
+            </p>
+            <p>&nbsp;</p>
+
+            <div class="columns is-multiline">
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-5 num-words-2 slide-top" style="width: 10em;">
+                        <div>slide-top</div>
+                        <div>slide-top</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-5 num-words-2 slide-bottom" style="width: 10em;">
+                        <div>slide-bottom</div>
+                        <div>slide-bottom</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-5 num-words-2 slide-left" style="width: 10em;">
+                        <div>slide-left</div>
+                        <div>slide-left</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-5 num-words-2 slide-right" style="width: 10em;">
+                        <div>slide-right</div>
+                        <div>slide-right</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-5 num-words-2 slide-top-bottom" style="width: 10em;">
+                        <div>slide-top-bottom</div>
+                        <div>slide-top-bottom</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-5 num-words-2 slide-bottom-top" style="width: 10em;">
+                        <div>slide-bottom-top</div>
+                        <div>slide-bottom-top</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-5 num-words-2 slide-left-right" style="width: 10em;">
+                        <div>slide-left-right</div>
+                        <div>slide-left-right</div>
+                    </div>
+                </div>
+
+                <div class="column is-one-third">
+                    <div class="blank-line-list list-speed-5 num-words-2 slide-right-left" style="width: 10em;">
+                        <div>slide-right-left</div>
+                        <div>slide-right-left</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+    <p>
+        I used <a href="https://bulma.io/" target="_blank"><strong>bulma</Strong></a> to style this and <a href="https://highlightjs.org/" target="_blank"><strong>highlight.js</Strong></a> for syntax highlighting.
+    </p>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/xcode.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
 </body>
 </html>
