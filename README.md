@@ -10,4 +10,5 @@ A CSS library to animate a list of text into a blank line.
         <div>thoughts</div>
         <div>'this'</div>
         <div>something</div>
-    </div>.```
+    </div>.
+```
