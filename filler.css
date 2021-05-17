@@ -5039,4 +5039,8 @@
   background-color: #363636;
 }
 
+.blank-line-list.underline-none:after {
+  display: none;
+}
+
 /*# sourceMappingURL=filler.css.map */

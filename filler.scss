@@ -164,3 +164,6 @@ $base-unit: 0.5s;
 .blank-line-list.underline-dark:after {
     background-color: #363636;
 }
+.blank-line-list.underline-none:after {
+    display: none;
+}

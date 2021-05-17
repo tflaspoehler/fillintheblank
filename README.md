@@ -6,7 +6,8 @@ A CSS library to animate a list of text into a blank line.
 ![Rotating Text Example](https://github.com/tflaspoehler/fillintheblank/raw/main/readme.gif)
 
 
-```this sentence starts with
+```html
+this sentence starts with
     <div class="blank-line-list list-speed-3 num-words-5">
         <div>words</div>
         <div>letters</div>
