@@ -3,7 +3,7 @@ A CSS library to animate a list of text into a blank line.
 
 [https://tflaspoehler.github.io/fillintheblank/](https://tflaspoehler.github.io/fillintheblank/)
 
-![Rotating Text Example](https://fillintheblank.github.com/readme.gif)
+![Rotating Text Example](https://github.com/tflaspoehler/fillintheblank/raw/main/readme.gif)
 
 
 ```this sentence starts with
